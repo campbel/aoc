@@ -3,3 +3,4 @@ tools:
 
 up:
   - echo "*" > .bolt/.gitignore
+  - grep -q ".envrc" .gitignore || echo ".envrc" >> .gitignore

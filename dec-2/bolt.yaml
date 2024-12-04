@@ -1,2 +1,6 @@
 tools:
   - golang: "1.23.0"
+
+up:
+  - echo "*" > .bolt/.gitignore
+  - grep -q ".envrc" .gitignore || echo ".envrc" >> .gitignore
