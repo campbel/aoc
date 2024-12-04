@@ -1,0 +1,5 @@
+tools:
+  - uv: "0.4.29"
+
+up:
+  - echo "*" > .bolt/.gitignore
