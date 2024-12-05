@@ -1,0 +1,6 @@
+tools:
+  - ruby: "3.3.1"
+
+up:
+  - echo "*" > .bolt/.gitignore
+  - grep -q ".envrc" .gitignore || echo ".envrc" >> .gitignore
